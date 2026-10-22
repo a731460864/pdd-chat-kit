@@ -1,0 +1,35 @@
+{
+  "name": "pdd-chat-kit",
+  "version": "0.1.0",
+  "description": "Unofficial Pinduoduo merchant chat toolkit for session management, polling, normalization, deduplication, and text/image/video messaging.",
+  "main": "index.js",
+  "type": "commonjs",
+  "files": [
+    "index.js",
+    "api.js",
+    "login-page.js",
+    "health.js",
+    "message-types.mjs",
+    "README.md",
+    "LICENSE"
+  ],
+  "scripts": {
+    "check": "node --check index.js && node --check api.js && node --check login-page.js && node --check health.js && node --check message-types.mjs"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "keywords": [
+    "pinduoduo",
+    "pdd",
+    "chat",
+    "customer-service",
+    "messaging",
+    "automation"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/a731460864/pdd-chat-kit.git"
+  },
+  "license": "MIT"
+}

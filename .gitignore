@@ -147,3 +147,12 @@ vite.config.ts.timestamp-*
 
 # Turbo Repo
 .turbo
+
+# PDD session and runtime state
+data/
+.pdd/
+seen.json
+login-failures.json
+cookies*.json
+*.session
+*.cookies

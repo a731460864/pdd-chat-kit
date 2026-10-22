@@ -1,0 +1,28 @@
+{
+  "普通商品卡片（message.info）": {
+    "message": { "info": { "goods_id": "927925365312", "goods_name": "夏季新款短袖", "goods_price": 3990, "thumb_url": "http://t16img.yangkeduo.com/a.jpg" } }
+  },
+  "商品规格卡片（info.data）": {
+    "info": { "data": { "goods_id": "1016100001922", "goods_name": "纯棉四件套", "goods_spec": "颜色: 灰 | 尺寸: 1.8m", "goods_price": 12900 } }
+  },
+  "来源页标记（info.goods_info）": {
+    "info": { "goods_info": { "goods_id": "555001", "goods_name": "来自商品详情页", "link_url": "https://mobile.yangkeduo.com/goods.html?goods_id=555001" } }
+  },
+  "老卡片（context.n_context）": {
+    "context": { "n_context": { "goodsID": "666002", "goodsName": "老格式商品", "goodsThumbUrl": "http://img/x.png" } }
+  },
+  "商品卡片（biz_context + 分价）": {
+    "biz_context": { "goods_id": "777003", "name": "biz 里的名字", "minOnSaleGroupPrice": 1990 }
+  },
+  "元为单位的价（goodsPrice）": {
+    "info": { "goods_id": "888004", "goodsPrice": 25.5, "goods_name": "元价商品" }
+  },
+  "只有纯文本（不该解析出商品）": { "type": 0, "content": "在吗，有货吗" },
+  "空对象": {},
+  "null": null,
+  "info 是字符串（畸形）": { "info": "not-an-object" },
+  "多层嵌套（message.info.data 优先）": {
+    "message": { "info": { "goods_id": "999005", "data": { "goods_spec": "规格来自 data" } } },
+    "info": { "goods_name": "外层名字" }
+  }
+}
